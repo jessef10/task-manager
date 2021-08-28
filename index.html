@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Jesse Flores">
+  <meta name="description" content="App for creating and managing a list">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Task Manager</title>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <p class="my-0 text-dark bg-light text-center border-bottom">Task Manager</p>
+    <nav>
+      <div class="container text-right">
+        <div class="row">
+          <div class="col">
+            <i class="far fa-sun"></i>
+            <button class="btn mode-btn"><i class="fas fa-toggle-off"></i></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="container div-title">
+        <h2 class="task-title mt-3 mb-1">My Tasks</h2>
+        <i class="far fa-edit"></i>
+        <div class="form d-none">
+          <input class="form-control bg-transparent" value="">
+          <button class="btn">Save</button>
+        </div>
+        <!-- To Do Section -->
+        <p class="mb-0 mt-2 to-do">To do</p>
+        <div class="card bg-transparent border-top-0 border-right-0 border-left-0">
+
+        </div>
+        <!-- Completed Section -->
+        <p class="mb-0 mt-2 complete"> 0 Completed</p>
+        <div class="card bg-transparent border-0">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2021 Jesse Flores
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>

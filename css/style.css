@@ -1,0 +1,112 @@
+html {
+  height: 100%;
+  width: auto;
+}
+
+footer {
+  font-size: 12px;
+  position: fixed;
+  right: 1em;
+  bottom: 0.5em;
+}
+
+li {
+  background-color: transparent !important;
+  border-style: none !important;
+}
+
+.list-group-item:hover {
+  background-color: #f9f9f9 !important;
+}
+
+div ul li input {
+  margin-left: 0.75rem;
+}
+
+.input-list {
+  background-color: inherit;
+  width: 60%;
+}
+.input-list:hover {
+  width: 60%;
+}
+
+.fa-toggle-off {
+  font-size: large;
+}
+
+.task-title {
+  display: inline;
+}
+
+.to-do, .complete {
+  font-size: larger;
+}
+
+.fa-thumbtack {
+  color: gray;
+}
+
+.priority {
+  color: steelblue;
+}
+
+.fa-times-circle {
+  color: red;
+  font-size: larger;
+}
+/* Dark mode */
+.body-dark {
+  background-color: #151515;
+  color: white;
+}
+.name-dark {
+  background-color: #151515 !important;
+  color: white !important;
+  border: none !important;
+}
+.fa-toggle-on {
+  color: white;
+}
+.container-dark {
+  background-color: #e4e4e414;
+}
+.btn-dark {
+  background-color:#00c1af;
+  color: #151515;
+}
+.card-dark {
+  border-color: #151515;
+}
+.item-dark:hover {
+  background-color: #e4e4e429 !important;
+}
+.priority-dark, .plus-dark {
+  color: #00c1af;
+}
+.input-dark {
+  background-color: transparent;
+  color: white;
+}
+.x-dark {
+  color: #d21b3c;
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: larger;
+  }
+  .container {
+    text-align: center;
+  }
+  .to-do, .complete {
+    text-align: left;
+    padding-left: 5rem;
+  }
+  .input-list {
+    width: 80%;
+  }
+  .input-list:hover {
+    width: 80%;
+  }
+}
